@@ -1,0 +1,312 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	min-width: 1800px;
+}
+
+.facebook_title {
+	text-decoration: none;
+	color: #ffffff;
+	float: left;
+	margin-left: 310px;
+	padding-top: 13px;
+	cursor: pointer;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.facebook_title:link {
+	text-decoration: none;
+}
+
+.facebook_title:hover {
+	cursor: pointer;
+}
+
+.log_in_menu {
+	display: flex;
+	height: 73px;
+	background-color: #365899;
+	color: #ffffff;
+	padding-top: 15px;
+}
+
+.link_left_side {
+	width: 55%;
+	padding-left: 20px;
+}
+
+
+.form_action {
+	display: inline;
+}
+
+.email_part {
+	float: left;
+	margin-left: 200px;
+	font-size: 12px;
+	line-height: 24px;
+	flex-shrink: 1;
+}
+
+.password_part {
+	float: left;
+	margin-left: 13px;
+	font-size: 12px;
+	line-height: 24px;
+	flex-shrink: 1;
+}
+
+input[type=email] {
+	width: 142px;
+}
+
+input[type=password] {
+	width: 142px;
+}
+
+.forgot_account {
+	line-height: 0;
+	color: #9cb4d8;
+}
+
+.forgot_account:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.button-log {
+	margin-top: 23px;
+	float: right;
+	margin-left: 10px;
+}
+
+.log_in {
+	width: 60px;
+	background-color: #4267b2;
+	color: #ffffff;
+	border: 0.5px solid #29487d;
+	border-radius: 3px;
+	outline: none;
+	height: 27px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.log_in:hover {
+	background-color: #365890;
+	cursor: pointer;
+}
+
+.main {
+	width: 100%;
+	height: 310px;
+	background-color: #e0e6eb;
+	padding-top: 100px;
+}
+
+.medium_block {
+	width: 30%;
+	height: 200px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	border: 1px solid #b1c2cd;
+	border-radius: 3px;
+}
+
+.find_account {
+	margin-left: 17px;
+	margin-right: 17px;
+	margin-top: 28px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 6px;
+}
+
+hr {
+	border: 0.7px solid #e0e0d1;
+}
+
+.reset_pass {
+	margin-left: 60px;
+	font-size: 13px;
+}
+
+input[type=email_reset] {
+	width: 53%;
+	margin-top: 5px;
+	height: 20px;
+	border: 1px solid #b1c2cd;
+}
+
+::placeholder {
+	color: #92aab9;
+	font-size: 15px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+}
+
+.buttons {
+	display: flex;
+	margin-top: 41px;
+	width: 100%;
+	height: 49px;
+	background-color: #eaeae1;
+	border-top: 1px solid #b1c2cd;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.button_search {
+	margin-right: 6px;
+	background-color: #365890;
+	color: #ffffff;
+	border: 1px solid #006699;
+	border-radius: 5px;
+	outline: none;
+	height: 27px;
+	font-size: 15px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.button_search:hover {
+	background-color: #0554A0;
+	cursor: pointer;
+}
+
+.button_cancel {
+	margin-right: 10px;
+	border-radius: 5px;
+	outline: none;
+	height: 27px;
+	font-size: 15px;
+	border: 1px solid #c0c0a5;
+	font-weight: 700;
+	color: #404040;
+	cursor: pointer;
+}
+
+.button_cancel:hover {
+	background-color: #eff5f5;
+	cursor: pointer;
+}
+
+.footer {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 200px;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 12px;
+	color: #365890;
+	word-spacing: 8px;
+}
+
+
+ul.list_of_languages li {
+	display: inline;
+}
+
+li:nth-child(2) {
+	word-spacing: 10px;
+}
+
+.english:link {
+	color: #737373;
+	word-spacing: 1px;
+}
+
+.french {
+	word-spacing: 1px;
+}
+
+.vietnamese {
+	word-spacing: 2px;
+}
+
+.brazilian-portuguese {
+	word-spacing: 1px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #365890;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+#plus {
+	width: 30px;
+	height: 23px;
+	font-weight: 600;
+	display: inline;
+	font-size: 17px;
+	outline: none;
+	border: 1px solid #c0c0a5;
+	color: #404040;
+}
+
+#plus:hover {
+	background-color: #eff5f5;
+	cursor: pointer;
+}
+
+#separator {
+	margin-left: 40px;
+	width: 66%;
+}
+
+ul.actions li {
+	display: inline;
+	word-spacing: 20px;
+}
+
+.sign-up_user {
+	word-spacing: 3px;
+}
+
+.log-in_user {
+	word-spacing: 3px;
+}
+
+.facebook-lite {
+	word-spacing: 3px;
+}
+
+.find-friends {
+	word-spacing: 3px;
+}
+
+ul.links li {
+	display: inline;
+	word-spacing: 20px;
+}
+
+.create-ad {
+	word-spacing: 3px;
+}
+
+.create-page {
+	word-spacing: 3px;
+}
+
+.ad-choices {
+	word-spacing: 3px;
+}
+
+.copyright {
+	color: #737373;
+	font-size: 10px;
+	margin-top: 30px;
+}
+
+span {
+	margin-left: 40px;
+}
+
