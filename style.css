@@ -152,7 +152,7 @@ input[type=email_reset] {
 	margin-top: 41px;
 	width: 100%;
 	height: 49px;
-	background-color: #eaeae1;
+	background-color: #f2f2f2;
 	border-top: 1px solid #b1c2cd;
 	justify-content: flex-end;
 	align-items: center;
@@ -194,7 +194,7 @@ input[type=email_reset] {
 }
 
 .footer {
-	margin-left: 150px;
+	margin-left: 380px;
 	margin-right: 150px;
 	margin-top: 200px;
 }
