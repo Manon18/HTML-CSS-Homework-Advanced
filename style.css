@@ -1,18 +1,17 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0;
-	min-width: 1800px;
 }
 
 .container {
 	margin: 0 auto;
 }
 
+
 .facebook_title {
 	text-decoration: none;
 	color: #ffffff;
 	float: left;
-	margin-left: 310px;
 	padding-top: 13px;
 	cursor: pointer;
 	font-size: 40px;
@@ -36,9 +35,17 @@ body {
 	padding-top: 15px;
 }
 
+.container_width {
+	min-width: 980px;
+	margin: 0 auto;
+}
+
 .link_left_side {
-	width: 55%;
-	padding-left: 20px;
+    float: left;
+}
+
+.log_in_right_side {
+	float: right;
 }
 
 
@@ -104,7 +111,6 @@ input[type=password] {
 }
 
 .main {
-	width: 100%;
 	height: 310px;
 	background-color: #e0e6eb;
 	padding-top: 100px;
@@ -112,6 +118,7 @@ input[type=password] {
 
 .medium_block {
 	width: 30%;
+	min-width: 550px;
 	height: 200px;
 	background-color: #ffffff;
 	margin: 0 auto;
@@ -198,9 +205,16 @@ input[type=email_reset] {
 }
 
 .footer {
-	margin-left: 319px;
-	margin-right: 150px;
-	margin-top: 200px;
+	width: 100%;
+}
+
+.footer_container {
+	width: 980px;
+	margin: 200px auto 50px;
+}
+
+.footer_container ul{
+	padding: 0;
 }
 
 ul {
@@ -263,13 +277,13 @@ a:hover {
 }
 
 #separator {
-	margin-left: 40px;
-	width: 66%;
+	margin: 0;
+	width: 100%;
 }
 
 ul.actions li {
 	display: inline;
-	word-spacing: 20px;
+	word-spacing: 17px;
 }
 
 .sign-up_user {
@@ -290,7 +304,7 @@ ul.actions li {
 
 ul.links li {
 	display: inline;
-	word-spacing: 20px;
+	word-spacing: 18px;
 }
 
 .create-ad {
@@ -310,8 +324,3 @@ ul.links li {
 	font-size: 10px;
 	margin-top: 30px;
 }
-
-span {
-	margin-left: 40px;
-}
-
