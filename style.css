@@ -1,326 +1,322 @@
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
 .container {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
-
 .facebook_title {
-	text-decoration: none;
-	color: #ffffff;
-	float: left;
-	padding-top: 13px;
-	cursor: pointer;
-	font-size: 40px;
-	font-weight: 900;
+  text-decoration: none;
+  color: #ffffff;
+  float: left;
+  padding-top: 13px;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .facebook_title:link {
-	text-decoration: none;
-	color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .facebook_title:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .log_in_menu {
-	display: flex;
-	height: 73px;
-	background-color: #365899;
-	color: #ffffff;
-	padding-top: 15px;
+  display: flex;
+  height: 73px;
+  background-color: #365899;
+  color: #ffffff;
+  padding-top: 15px;
 }
 
 .container_width {
-	min-width: 980px;
-	margin: 0 auto;
+  min-width: 980px;
+  margin: 0 auto;
 }
 
 .link_left_side {
-	float: left;
+  float: left;
 }
 
 .log_in_right_side {
-	float: right;
+  float: right;
 }
 
-
 .form_action {
-	display: inline;
+  display: inline;
 }
 
 .email_part {
-	float: left;
-	margin-left: 200px;
-	font-size: 12px;
-	line-height: 24px;
-	flex-shrink: 1;
+  float: left;
+  margin-left: 200px;
+  font-size: 12px;
+  line-height: 24px;
+  flex-shrink: 1;
 }
 
 .password_part {
-	float: left;
-	margin-left: 13px;
-	font-size: 12px;
-	line-height: 24px;
-	flex-shrink: 1;
+  float: left;
+  margin-left: 13px;
+  font-size: 12px;
+  line-height: 24px;
+  flex-shrink: 1;
 }
 
 input[type=email] {
-	width: 142px;
+  width: 142px;
 }
 
 input[type=password] {
-	width: 142px;
+  width: 142px;
 }
 
 .forgot_account {
-	line-height: 0;
-	color: #9cb4d8;
+  line-height: 0;
+  color: #9cb4d8;
 }
 
 .forgot_account:hover {
-	text-decoration: underline;
-	cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .button-log {
-	margin-top: 23px;
-	float: right;
-	margin-left: 10px;
+  margin-top: 23px;
+  float: right;
+  margin-left: 10px;
 }
 
 .log_in {
-	width: 60px;
-	background-color: #4267b2;
-	color: #ffffff;
-	border: 0.5px solid #29487d;
-	border-radius: 3px;
-	outline: none;
-	height: 27px;
-	font-size: 12px;
-	font-weight: bold;
+  width: 60px;
+  background-color: #4267b2;
+  color: #ffffff;
+  border: 0.5px solid #29487d;
+  border-radius: 3px;
+  outline: none;
+  height: 27px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .log_in:hover {
-	background-color: #365890;
-	cursor: pointer;
+  background-color: #365890;
+  cursor: pointer;
 }
 
 .main {
-	height: 310px;
-	background-color: #e0e6eb;
-	padding-top: 100px;
+  height: 310px;
+  background-color: #e0e6eb;
+  padding-top: 100px;
 }
 
 .medium_block {
-	width: 30%;
-	min-width: 550px;
-	height: 200px;
-	background-color: #ffffff;
-	margin: 0 auto;
-	border: 1px solid #b1c2cd;
-	border-radius: 3px;
+  width: 30%;
+  min-width: 550px;
+  height: 200px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  border: 1px solid #b1c2cd;
+  border-radius: 3px;
 }
 
 .find_account {
-	margin-left: 17px;
-	margin-right: 17px;
-	margin-top: 28px;
-	font-weight: 600;
-	font-size: 20px;
-	line-height: 6px;
+  margin-left: 17px;
+  margin-right: 17px;
+  margin-top: 28px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 6px;
 }
 
 hr {
-	border: 0.7px solid #e0e0d1;
+  border: 0.7px solid #e0e0d1;
 }
 
 .reset_pass {
-	margin-left: 60px;
-	font-size: 13px;
+  margin-left: 60px;
+  font-size: 13px;
 }
 
 input[type=email_reset] {
-	width: 53%;
-	margin-top: 5px;
-	height: 20px;
-	border: 1px solid #b1c2cd;
+  width: 53%;
+  margin-top: 5px;
+  height: 20px;
+  border: 1px solid #b1c2cd;
 }
 
 ::placeholder {
-	color: #92aab9;
-	font-size: 15px;
-	padding-bottom: 2px;
-	padding-left: 4px;
+  color: #92aab9;
+  font-size: 15px;
+  padding-bottom: 2px;
+  padding-left: 4px;
 }
 
 .buttons {
-	display: flex;
-	margin-top: 41px;
-	width: 100%;
-	height: 49px;
-	background-color: #f2f2f2;
-	border-top: 1px solid #b1c2cd;
-	justify-content: flex-end;
-	align-items: center;
+  display: flex;
+  margin-top: 41px;
+  width: 100%;
+  height: 49px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #b1c2cd;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .button_search {
-	margin-right: 6px;
-	background-color: #365890;
-	color: #ffffff;
-	border: 1px solid #006699;
-	border-radius: 5px;
-	outline: none;
-	height: 27px;
-	font-size: 15px;
-	font-weight: 700;
-	cursor: pointer;
+  margin-right: 6px;
+  background-color: #365890;
+  color: #ffffff;
+  border: 1px solid #006699;
+  border-radius: 5px;
+  outline: none;
+  height: 27px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .button_search:hover {
-	background-color: #0554A0;
-	cursor: pointer;
+  background-color: #0554A0;
+  cursor: pointer;
 }
 
 .button_cancel {
-	margin-right: 10px;
-	border-radius: 5px;
-	outline: none;
-	height: 27px;
-	font-size: 15px;
-	border: 1px solid #c0c0a5;
-	font-weight: 700;
-	color: #404040;
-	cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  outline: none;
+  height: 27px;
+  font-size: 15px;
+  border: 1px solid #c0c0a5;
+  font-weight: 700;
+  color: #404040;
+  cursor: pointer;
 }
 
 .button_cancel:hover {
-	background-color: #eff5f5;
-	cursor: pointer;
+  background-color: #eff5f5;
+  cursor: pointer;
 }
 
 .footer {
-	width: 100%;
+  width: 100%;
 }
 
 .footer_container {
-	width: 980px;
-	margin: 200px auto 50px;
+  width: 980px;
+  margin: 200px auto 50px;
 }
 
-.footer_container ul{
-	padding: 0;
+.footer_container ul {
+  padding: 0;
 }
 
 ul {
-	list-style-type: none;
-	font-size: 12px;
-	color: #365890;
-	word-spacing: 8px;
+  list-style-type: none;
+  font-size: 12px;
+  color: #365890;
+  word-spacing: 8px;
 }
 
-
 ul.list_of_languages li {
-	display: inline;
+  display: inline;
 }
 
 li:nth-child(2) {
-	word-spacing: 10px;
+  word-spacing: 10px;
 }
 
 .english:link {
-	color: #737373;
-	word-spacing: 1px;
+  color: #737373;
+  word-spacing: 1px;
 }
 
 .french {
-	word-spacing: 1px;
+  word-spacing: 1px;
 }
 
 .vietnamese {
-	word-spacing: 2px;
+  word-spacing: 2px;
 }
 
 .brazilian-portuguese {
-	word-spacing: 1px;
+  word-spacing: 1px;
 }
 
 a:link {
-	text-decoration: none;
-	color: #365890;
+  text-decoration: none;
+  color: #365890;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 #plus {
-	width: 30px;
-	height: 23px;
-	font-weight: 600;
-	display: inline;
-	font-size: 17px;
-	outline: none;
-	border: 1px solid #c0c0a5;
-	color: #404040;
+  width: 30px;
+  height: 23px;
+  font-weight: 600;
+  display: inline;
+  font-size: 17px;
+  outline: none;
+  border: 1px solid #c0c0a5;
+  color: #404040;
 }
 
 #plus:hover {
-	background-color: #eff5f5;
-	cursor: pointer;
+  background-color: #eff5f5;
+  cursor: pointer;
 }
 
 #separator {
-	margin: 0;
-	width: 100%;
+  margin: 0;
+  width: 100%;
 }
 
 ul.actions li {
-	display: inline;
-	word-spacing: 17px;
+  display: inline;
+  word-spacing: 17px;
 }
 
 .sign-up_user {
-	word-spacing: 3px;
+  word-spacing: 3px;
 }
 
 .log-in_user {
-	word-spacing: 3px;
+  word-spacing: 3px;
 }
 
 .facebook-lite {
-	word-spacing: 3px;
+  word-spacing: 3px;
 }
 
 .find-friends {
-	word-spacing: 3px;
+  word-spacing: 3px;
 }
 
 ul.links li {
-	display: inline;
-	word-spacing: 18px;
+  display: inline;
+  word-spacing: 18px;
 }
 
 .create-ad {
-	word-spacing: 3px;
+  word-spacing: 3px;
 }
 
 .create-page {
-	word-spacing: 3px;
+  word-spacing: 3px;
 }
 
 .ad-choices {
-	word-spacing: 3px;
+  word-spacing: 3px;
 }
 
 .copyright {
-	color: #737373;
-	font-size: 10px;
-	margin-top: 30px;
+  color: #737373;
+  font-size: 10px;
+  margin-top: 30px;
 }
